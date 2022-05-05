@@ -74,6 +74,90 @@ i{
     margin: 4% auto;
 }
 
+.mainR1TitleContainer{
+    text-align: center;
+    padding: 2% 0;
+}
+.demandFormContainer{
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+.typeDocRow{
+    display: flex;
+    justify-content: center;
+}
+.typeDoc{
+    display: inline-block;
+    width: 48%;
+}
+#typeDoc{
+    display: inline-block;
+    width: 50%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding-bottom: 1%;
+}
+.checkInfosPerso{
+    display: flex;
+    margin-top: 3%;
+}
+.checkboxInfosPerso{
+    display: inline-block;
+    width: 50%;
+    margin-top: 2%;
+}
+.checkInfosPerso div{
+    display: flex;
+}
+#checkInfos{
+    margin-left: 2.5%;
+}
+form{
+    margin: auto;
+    padding: 3%;
+}
+.textAfterCheckbox{
+    font-size: 10pt;
+}
+.newDmdBtnContainer{
+    text-align: center;
+    margin-top: 5%;
+}
+.btn{
+    border-radius: 5pt;
+    color: whitesmoke;
+    font-size: 15pt;
+}
+.btn:hover{
+    transform: scale(1.03);
+    transition: transform .125s ease-out;
+    background: linear-gradient(#2057b6, #173e82);
+    box-shadow: 0 0 7pt 4pt #2057b66b;
+}
+.btn:active{
+    box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
+    transition: box-shadow .125s ease-out;
+    transform: scale(1);
+    transition: transform .125s ease-out;
+}
+.btnDemander{
+    border: none;
+    padding: 2.5% 5%;
+    background: linear-gradient(#2667d6, #2157b4);
+    box-shadow: 0 0 5pt 3pt #2057b66b;
+}
+.mainRow2{
+    padding: 2%;
+}
+.mainR2TitleContainer{
+    text-align: center;
+    margin: 2% 0;
+}
+.dmdItemContainer{
+    width: 80%;
+}
 
 
 
