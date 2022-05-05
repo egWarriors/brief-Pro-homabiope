@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+/*header*/
+header{
+    display: flex;
+    /*border: 1px solid black;*/
+     box-shadow: 0px 0px 2px 1px #3f3e3e;
+     margin-bottom: 15px;
+     background-color: #2565d2;
+     color: whitesmoke;
+}
+body{
+    background-color: #d9d9d9;
+}
+.Iconretour{
+    width: 80px;
+    height: 40px;
+    /*border: 1px solid ;*/
+
+}
+.titredepage{
+    width: 70%;
+    padding-top: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: 1px solid gray ;
+    font-size: large;
+    text-align: center;
+}
+  /*main*/
+.menus{
+    margin-top: -10px;
+}
+table{
+    width: 100%;
+}
+th, td{
+    padding: 5px;
+    border: 1px solid gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.titre{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.document{
+    text-align: center;
+    width: 100px;
+
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.Carte_doperateur_economique{
+    border: 1px solid black;
+    width: 110px;
+  
+    padding: 10px;
+}
+.Contener_text_img{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: x-small;
+    box-shadow: 0px 0px 4px 1px #3f3e3e;
+    background-color: #c0d0ed;
+
+}
+.document_description{
+    width: 100px;
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25%;
+    background-color: #c0d0ed;
+    box-shadow: #c0d0ed;
+
+}
+.icone_reseau_social{
+    width: 25px;
+}
+
