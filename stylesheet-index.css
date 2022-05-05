@@ -1,0 +1,112 @@
+.container-logo-icon{
+    display: flex;
+    justify-content: space-between;
+    background-color:#64b5f6;
+}
+.container-liens{
+    background-color:#64b5f6;
+}
+.logoHP{
+    width: 150px;
+}
+.icon-header-right{
+    width: 30px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.container-header-image-text{
+    background-image:url( assets/Images/background-header2.png );
+    height: 130px;
+}
+.container-text{
+    margin-left: 200px;
+    padding-top: 50px;
+    color: aliceblue;
+}
+.two-items-container{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+.container-item img{
+    width: 168px;
+    height: 100px;
+    margin-left: 1px;
+    margin-top: 1px;
+    border-radius: 10px;
+    box-shadow: 2PX 2PX 2PX;
+}
+.container-item{
+    width: 173px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: #e8f5e9;
+}
+h4{
+    text-align: center;
+    margin-top: -3px;
+}
+span{
+    font-size: small;
+    margin-left: 3px;
+}
+.container-apropos-vidéo{
+    display: flex;
+    justify-content: space-around;
+}
+.a-propos{
+    width: 173;
+    height: 140px;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.vidéo img{
+    margin: 4px;
+    width: 250px;
+    height: 140px;
+    border-radius: 10px;
+}
+input{
+    width: 90px;
+    height: 10px;
+    border-radius: 3px
+}
+textarea{
+    width: 90px; 
+    border-radius: 5px;
+}
+button{
+    height: 20px;
+    background-color: #009688;
+    border-radius: 5px;
+    color: white;
+}
+.adresse_container{
+    display: flex;
+    justify-content: space-around;
+}
+.adresse{
+font-size: small;
+
+}
+footer{
+    background-image: url( assets/Images/LogoHomaBiope.png );
+}
+.reseau_sociaux{
+    width: 20px;
+    display: inline-block;
+}
+.reseaux-sociaux-container{
+    display: flex;
+    justify-content: space-around;
+}
+.cercle{
+    display: inline;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}

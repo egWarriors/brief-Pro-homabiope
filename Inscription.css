@@ -1,0 +1,68 @@
+body{
+    background-image: url(assets/Images/font2.jpg);
+}
+.page_container{
+    background-color: #d9d9d9;
+}
+header{
+    box-shadow: 0px 0px 2PX 1px #3f3e3e;
+    background-color: #2565d2;
+}
+.headercontainer{
+    display: flex;
+}
+.fleche_container{
+    width: 20%;
+    border-right: 1px solid black;  
+}
+.text_container{
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bolder;
+   
+}
+.info_container{
+    margin-top: 50px;
+}
+.names_container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.email{
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 80px;
+}
+.checkbox{
+    display: flex;
+    margin-left: 20px;   
+}
+.confirmation-text{
+    margin-left: 20px;
+}
+input{
+    border-bottom: 1px solid #3f3e3e;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    background-color: #d9d9d9;
+}
+    
+button{
+    width: 50%;
+    margin: 70px;
+    margin-left: 95px;
+    font-size: large;
+    background: linear-gradient(#2057b6, #173e82);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 20px;
+
+}
+button:hover{
+    box-shadow: 0 0 7pt 4pt #2057b6;
+}
