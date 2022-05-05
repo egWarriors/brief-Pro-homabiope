@@ -1,3 +1,4 @@
+/* header*/
 .container-logo-icon{
     display: flex;
     justify-content: space-between;
@@ -30,6 +31,7 @@ nav a{
     font-size: large;
     font-weight: bolder;
 }
+/* main*/
 .description_document span{
     padding: 5px;
 }
@@ -76,16 +78,22 @@ span{
     height: 140px;
     border-radius: 10px;
 }
+/* footer*/
+footer{
+    background-image: url( assets/Images/LogoHomaBiope.png );
+   
+}
 input{
-    width: 90px;
+    width: 100px;
     height: 10px;
-    border-radius: 3px;
-    padding: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    
 }
 textarea{
-    
-    width: 90px; 
+    width: 100px; 
     border-radius: 5px;
+    padding: 10px;
 }
 button{
     padding: 8px;
@@ -96,6 +104,9 @@ button{
     font-size: large;
     margin-top: 10px;
 }
+button:hover{
+    box-shadow: 0 0 7pt 4pt #399932;
+}
 .adresse_container{
     display: flex;
     justify-content: space-around;
@@ -104,8 +115,12 @@ button{
 font-size: small;
 
 }
-footer{
-    background-image: url( assets/Images/LogoHomaBiope.png );
+.message_alerte{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+    font-weight: bolder;
 }
 .reseau_sociaux{
     width: 20px;
@@ -114,11 +129,4 @@ footer{
 .reseaux-sociaux-container{
     display: flex;
     justify-content: space-around;
-}
-.cercle{
-    display: inline;
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
 }

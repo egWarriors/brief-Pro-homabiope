@@ -6,6 +6,7 @@ body{
 }
 .page_container{
     background-color: #d9d9d9;
+
 }
 header{
     box-shadow: 0px 0px 2PX 1px #3f3e3e;
@@ -44,6 +45,12 @@ header{
     display: flex;
     margin-left: 20px;   
 }
+.confirmation-text strong{
+    text-decoration-line: underline;
+}
+.confirmation-text strong:hover{
+    color: #2057b6;
+}
 .confirmation-text{
     margin-left: 20px;
 }
@@ -64,7 +71,6 @@ button{
     border-radius: 10px;
     color: aliceblue;
     padding: 20px;
-
 }
 button:hover{
     box-shadow: 0 0 7pt 4pt #2057b6;
