@@ -1,5 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    background-image: url(assets/Images/font2.jpg);
+    background-image: url(assets/Images/background-body-mobile.jpg);
 }
 .page_container{
     background-color: #d9d9d9;
@@ -65,4 +68,14 @@ button{
 }
 button:hover{
     box-shadow: 0 0 7pt 4pt #2057b6;
+}
+footer{
+    box-shadow: 0 0 2px 1px #3f3e3e;
+    background-color: #C0d0eb;
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    width: 25px;
+
 }

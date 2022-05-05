@@ -1,5 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    background-image: url(assets/Images/font2.jpg);
+    background-image: url(assets/Images/background-body-mobile.jpg);
 }
 .page_container{
     background-color: #d9d9d9;
@@ -17,7 +20,7 @@ header{
 }
 .text_container{
     width: 80%;
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 20px;
     color: aliceblue;
     font-size: large;
@@ -39,8 +42,54 @@ margin-left: 7px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    background-color: #d9d9d9;
+    background-color: whitesmoke;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.input input{
+    border-bottom: 1px solid #3f3e3e;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    width: 99%;
+    margin-top: 50px;
+    padding-top: 10px;
+    background-color: #d9d9d9;
+}
+.button_container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.button_container button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    color: #d9d9d9;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.Annuler button{
+    background-color: #da3633;
+}
+.Annuler button:hover{
+    box-shadow: 0 0 7pt 4pt #da3633;
+}
+.Enregistrer button{
+    background-color: #399932;
+}
+.Enregistrer button:hover{
+    box-shadow: 0 0 7pt 4pt #399932;
+}
+
+footer{
+    box-shadow: 0 0 2px 1px #3f3e3e;
+    background-color: #C0d0eb;
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    width: 25px;
+
 }

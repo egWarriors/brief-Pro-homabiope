@@ -1,10 +1,10 @@
 .container-logo-icon{
     display: flex;
     justify-content: space-between;
-    background-color:#64b5f6;
+    background-color:#e3e4e8;
 }
 .container-liens{
-    background-color:#64b5f6;
+    background-color:#e3e4e8;
 }
 .logoHP{
     width: 150px;
@@ -13,9 +13,11 @@
     width: 30px;
 }
 nav a{
-    padding: 10px;
+    padding: 8px;
     text-decoration: none;
-    color: black;
+    color: #3f3e3e;
+    margin-left: 5px;
+    font-size: large;
 }
 .container-header-image-text{
     background-image:url( assets/Images/background-header2.png );
@@ -23,8 +25,13 @@ nav a{
 }
 .container-text{
     margin-left: 200px;
-    padding-top: 50px;
-    color: aliceblue;
+    padding-top: 40px;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bolder;
+}
+.description_document span{
+    padding: 5px;
 }
 .two-items-container{
     display: flex;
@@ -43,7 +50,7 @@ nav a{
     width: 173px;
     height: 230px;
     border-radius: 10px;
-    background-color: #e8f5e9;
+    background-color: whitesmoke;
 }
 h4{
     text-align: center;
@@ -72,17 +79,22 @@ span{
 input{
     width: 90px;
     height: 10px;
-    border-radius: 3px
+    border-radius: 3px;
+    padding: 8px;
 }
 textarea{
+    
     width: 90px; 
     border-radius: 5px;
 }
 button{
-    height: 20px;
-    background-color: #009688;
-    border-radius: 5px;
-    color: white;
+    padding: 8px;
+    width: 100px;
+    background-color: #399932;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: large;
+    margin-top: 10px;
 }
 .adresse_container{
     display: flex;
