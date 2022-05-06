@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(./assets/Images/background-body-mobile.jpg);
+    background-image: url(./assets/Images/background-body-mobil.jpg);
 }
 .bodySecond{
     background: hsla(0, 0%, 100%, .8);
@@ -155,6 +155,11 @@ form{
     text-align: center;
     margin: 2% 0;
 }
+.mainR2Title{
+    display: inline-block;
+    text-decoration: underline;
+    line-height: 30pt;
+}
 .dmdItemContainer{
     width: 95%;
     margin: 1% auto 4%;
@@ -206,10 +211,10 @@ form{
     height: .5px;
     width: 100%;
 }
-.dmdItemRow2>span{
+.dmdItemRow2>span,.dmdItemRow2>button{
     display: inline-block;
     width: 30%;
-    border: 1.5pt solid #3f3e3e;
+    border: 1pt solid #3f3e3e;
     margin: 0 auto;
 }
 .dmdItemRow2{
@@ -222,19 +227,43 @@ form{
 .dmdItemRow2>span:first-child{
     width: 44%;
 }
-.dmdItemRow2>span:last-child{
+.dmdItemRow2>button{
     width: 20%;
-    border: 1.5pt solid hsl(1, 70%, 70%);
+    background: transparent;
+    border: 1pt solid hsl(1, 70%, 70%);
     box-shadow: 0 0 1pt .5pt #3f3e3e9a;
     border-radius: 2pt;
 }
-.dmdItemRow2>span:last-child:hover{
+.dmdItemRow2>button:hover{
     background:hsl(1, 70%, 70%);
     border: 1.5pt solid transparent;
     color: whitesmoke;
     box-shadow: 0 0 3pt 1.5pt #3f3e3e7e;
 }
 
+.legendList{
+    width: 60%;
+}
+
+.legendListItem1{
+    margin: 1%;
+    padding: 1%;
+    background: #5e84ec7e;
+    border-radius: 5pt;
+}
+.legendListItem{
+    background: #6268797e;
+    border-radius: 5pt;
+}
+.mainRow2 .dmdItemContainer:nth-child(3) .numQuatre,
+.mainRow2 .dmdItemContainer:nth-child(4) .numDeux{
+    background: #6268797e;
+}
+
+.mainRow2 .dmdItemContainer:nth-child(5) .numCinq,
+.mainRow2 .dmdItemContainer:nth-child(6) .numUn{
+    background: #5e84ec7e;
+}
 
 
 
