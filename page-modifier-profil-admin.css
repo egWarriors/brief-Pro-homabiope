@@ -11,7 +11,7 @@ header{
     color: whitesmoke;
 }
 body{
-    background-color: #d9d9d9;
+    background: url(/assets/Images/background-body-mobile.jpg);
 }
 .Iconretour{
     width: 80px;
@@ -23,22 +23,31 @@ body{
     border-bottom: none;
     margin: 6px 2PX  3px 4px;
     padding: 9px 2PX  3px 4px; 
-    font-size: 200;  
+    font-size: large;
+    font-weight: bolder;  
 }
 /*MAIN*/
-main{
+.wrapped{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px #3f3e3e;
+    background: rgba(24, 24, 24, 0.5);
+    
+}
+.wrapped_iconcontener{
     border: 1px solid black;
     margin: 20px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;;
 }
 .photo_profil_contener{
     border: 1px solid black;
     width: 150px;
     height: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 25%;
+    margin: auto;
     border-radius: 50%;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
 }
 
 
@@ -47,6 +56,41 @@ main{
     width: 100px;
     height: 100px;
     
+}
+.info_personnel{
+    margin: 20px;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top:1px none  ;
+    border-left: none ;
+    border-bottom: 2px solid gray;
+    border-right: none;
+}
+button{
+    width: 140px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: large;
+    color: whitesmoke;
+}
+.cancel_button:hover{
+    box-shadow: 0 0 7pt 4pt #d92626;
+}
+.Save_button:hover{
+    box-shadow: 0 0 7pt 4pt #399932;
+}
+.cancel_button{
+    background: #d92626;
+
+}
+.Save_button{
+    background: #399932;
 }
 
 
@@ -61,4 +105,6 @@ footer{
 }
 .icone_reseau_social{
     width: 25px;
+
 }
+
