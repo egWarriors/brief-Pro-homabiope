@@ -1,0 +1,47 @@
+.back-link{
+    width: 100px;
+}
+.icone-textconnexion-container{
+    display: flex;
+    box-shadow: 0px 0px 2px 0px gray;
+    border: none;
+}
+.text-connexion{
+    width: 100%;
+    border-top: 1px none;
+    border-left: 1px solid black;
+    border-right: 1px none;
+    border-bottom: 1px none;
+}
+*{
+    box-sizing: border-box;
+}
+.mail-container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.forget-passeword{
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 50px;
+}
+.connexion-button{
+    margin-top: 20px;
+}
+.connexion-button{
+    margin-top: 30px;
+}
+.no-account{
+    margin-top: 40px;
+}
+form{
+    margin: 100px 20px 100px 20px;
+}
+input{
+    width: 100%;
+    border-top: 1px none;
+    border-bottom: 1px solid black;
+    border-right: 1px none;
+    border-left: 1px none;
+}
