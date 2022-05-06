@@ -81,19 +81,25 @@ span{
 /* footer*/
 footer{
     background-image: url( assets/Images/LogoHomaBiope.png );
-   
+    box-shadow: 0 0 2px 1px #3f3e3e;
+}
+.font-footer{
+    background: rgba(0, 0, 0, 0.709)
 }
 input{
     width: 100px;
     height: 10px;
     border-radius: 5px;
     padding: 10px;
+    margin-top: 5px;
     
 }
 textarea{
     width: 100px; 
     border-radius: 5px;
     padding: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 button{
     padding: 8px;
@@ -113,6 +119,9 @@ button:hover{
 }
 .adresse{
 font-size: small;
+color: whitesmoke;
+margin-top: 5px;
+margin-left: 5px;
 
 }
 .message_alerte{
@@ -121,6 +130,9 @@ font-size: small;
     padding: 5px;
     background-color: whitesmoke;
     font-weight: bolder;
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 .reseau_sociaux{
     width: 20px;
