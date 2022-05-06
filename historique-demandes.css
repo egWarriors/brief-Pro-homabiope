@@ -195,8 +195,8 @@ form{
 .numCinq{
     padding: 0 8%;
 }
-.etatFin{
-    border: none !important;
+.spanHr .etatFin{
+    border: none;
     translate: 5% 10%;
 }
 .hrFin{
@@ -230,15 +230,23 @@ form{
 .dmdItemRow2>button{
     width: 20%;
     background: transparent;
-    border: 1pt solid hsl(1, 70%, 70%);
+    border: 1pt solid #f85149;
     box-shadow: 0 0 1pt .5pt #3f3e3e9a;
     border-radius: 2pt;
 }
 .dmdItemRow2>button:hover{
-    background:hsl(1, 70%, 70%);
-    border: 1.5pt solid transparent;
+    transform: scale(1.03);
+    transition: transform .125s ease-out;
+    background:#f85149;
+    border: 1pt solid transparent;
     color: whitesmoke;
     box-shadow: 0 0 3pt 1.5pt #3f3e3e7e;
+}
+.dmdItemRow2>button:active{
+    box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
+    transition: box-shadow .125s ease-out;
+    transform: scale(1);
+    transition: transform .125s ease-out;
 }
 
 .legendList{
@@ -293,4 +301,593 @@ footer{
 }
 .logoSocial{
     width: 25px;
+}
+
+@media screen and (min-width: 725px) {
+    header{
+        margin: 0;
+        padding: 0%;
+        box-shadow: 0px 0px 5px 1px #3f3e3e;
+        background: #2565d2;
+        color: whitesmoke;
+    }
+    .headerContainer{
+        display: flex;
+    }
+    header a{
+        display: inline-block;
+        margin: auto;
+    }
+    a:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+    }
+    a:active{
+        transform: scale(1);
+        transition: transform .0125s ease-out;
+    }
+    .arrowIconContainer{
+        width: 8%;
+        border-right: 2px solid rgba(72, 76, 82, 0.5);
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+    }
+    .arrowIcon{
+        display: inline-block;
+        width: 50%;
+        margin: auto;
+    }
+    i{
+        font-size: 20pt;
+    }
+    .headerTitleContainer{
+        width: 92%;
+        text-align: center;
+    }
+    .pageTitle{
+        display: inline-block;
+        font-size: 25pt;
+        margin: 2% auto;
+    }
+
+    .mainR1TitleContainer{
+        text-align: center;
+        padding: 2% 0;
+        font-size: 18pt;
+        text-decoration: underline;
+    }
+    .demandFormContainer{
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+    .typeDocRow{
+        display: flex;
+        justify-content: center;
+    }
+    .typeDoc{
+        display: inline-block;
+        width: 30%;
+        font-size: 12.5pt;
+        margin-left: 10%;
+    }
+    #typeDoc{
+        display: inline-block;
+        width: 40%;
+        border: none;
+        margin-right: 10%;
+        background: transparent;
+        border-bottom: 1px solid black;
+        padding-bottom: 1%;
+    }
+    .checkInfosPerso{
+        display: flex;
+        margin-top: 3%;
+        margin-left: 15%;
+    }
+    .checkboxInfosPerso{
+        display: inline-block;
+        font-size: 12.5pt;
+        width: 50%;
+        margin-top: 2%;
+    }
+    .checkInfosPerso div{
+        display: flex;
+        padding-right: 40%;
+    }
+    #checkInfos{
+        margin-left: 4%;
+    }
+    form{
+        margin: auto;
+        padding: 3%;
+    }
+    .textAfterCheckbox, select{
+        font-size: 12pt;
+    }
+    .newDmdBtnContainer{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .btn{
+        border-radius: 5pt;
+        color: whitesmoke;
+        font-size: 15pt;
+    }
+    .btn:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+        background: linear-gradient(#2057b6, #173e82);
+        box-shadow: 0 0 7pt 4pt #2057b66b;
+    }
+    .btn:active{
+        box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
+        transition: box-shadow .125s ease-out;
+        transform: scale(1);
+        transition: transform .125s ease-out;
+    }
+    .btnDemander{
+        border: none;
+        padding: 2.5% 5%;
+        background: linear-gradient(#2667d6, #2157b4);
+        box-shadow: 0 0 5pt 3pt #2057b66b;
+    }
+    .mainRow2{
+        padding: 2%;
+    }
+    .mainR2TitleContainer{
+        text-align: center;
+        margin: 2% 0;
+    }
+    .mainR2Title{
+        display: inline-block;
+        text-decoration: underline;
+        line-height: 44pt;
+        font-size: 15pt;
+    }
+    .dmdItemContainer{
+        width: 95%;
+        margin: 1% auto 4%;
+        padding: 1.5% 1%;
+        border: 2px solid #3f3e3e;
+        border-top-left-radius: 5pt;
+        border-top-right-radius: 5pt;
+    }
+    .dmdItemRow1{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 6%;
+    }
+    .dmdItemRow1 div{
+        display: inline-block;
+        width: 25%;
+    }
+    .spanHr span{
+        display: flex;
+        text-align: center;
+    }
+    .spanHr span span{
+        display: inline-block;
+        height: 30px;
+        font-size: 17pt;
+        color: #3f3e3e;
+        font-weight: bold;
+        width: 35px;
+        border: 1px solid #3f3e3e;
+        border-radius: 50%;
+    }
+    .numCinq{
+        padding: 0 5%;
+    }
+    .etatFin{
+        border: none;
+        translate: 5% 10%;
+    }
+    .hrFin{
+        display: inline-block;
+        width: 20%;
+    }
+    .spanHr hr{
+        display: inline-block;
+        margin: auto 0;
+        background: #3f3e3e;
+        padding: 0;
+        height: .5px;
+        width: 100%;
+    }
+    .dmdItemRow2>span,.dmdItemRow2>button{
+        display: inline-block;
+        width: 30%;
+        padding: 2% 0;
+        border: 1pt solid #3f3e3e;
+        margin: 0 auto;
+        font-size: 12.5pt;
+    }
+    .dmdItemRow2{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 12.5pt;
+    }
+    .dmdItemRow2>span:first-child{
+        width: 44%;
+    }
+    .dmdItemRow2>button{
+        width: 20%;
+        background: transparent;
+        border: 1pt solid #f85149;
+        box-shadow: 0 0 2pt 1pt #3f3e3e9a;
+        border-radius: 2pt;
+    }
+    .dmdItemRow2>button:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+        background:#f85149;
+        border: 1pt solid transparent;
+        color: whitesmoke;
+        box-shadow: 0 0 3pt 1.5pt #3f3e3e7e;
+    }
+    .dmdItemRow2>button:active{
+        box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
+        transition: box-shadow .125s ease-out;
+        transform: scale(1);
+        transition: transform .125s ease-out;
+    }
+
+    .legendList{
+        width: 60%;
+    }
+
+    .legendListItem1{
+        margin: 1%;
+        padding: 1%;
+        background: #5e84ec7e;
+        border-radius: 5pt;
+        font-size: 12pt;
+    }
+    .legendListItem{
+        margin: 1%;
+        padding: 1%;
+        background: #6268797e;
+        border-radius: 5pt;
+        font-size: 12pt;
+    }
+    .mainRow2 .dmdItemContainer:nth-child(3) .numQuatre,
+    .mainRow2 .dmdItemContainer:nth-child(4) .numDeux{
+        background: #6268797e;
+    }
+
+    .mainRow2 .dmdItemContainer:nth-child(5) .numCinq,
+    .mainRow2 .dmdItemContainer:nth-child(6) .numUn{
+        background: #5e84ec7e;
+    }
+
+
+
+    footer{
+        margin-top: 8%;
+        box-shadow: 0px 0px 5px 1px #3f3e3e;
+        background: linear-gradient(#c0d0eb28, rgba(37, 100, 210, 0.7));
+        color: #14181f;
+        width: 100%;
+        padding: 2% 0%;
+    }
+    .footerLeftPart{
+        padding-top: 1%;
+        padding-left: 10%;
+        font-size: 17.5pt;
+        width: 70%;
+    }
+    .footerContainer{
+        display: flex;
+    }
+    .footerRightPart{
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1% 10%;
+    }
+    .logoSocial{
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header{
+        margin: 0;
+        padding: 0%;
+        box-shadow: 0px 0px 5px 1px #3f3e3e;
+        background: #2565d2;
+        color: whitesmoke;
+    }
+    .headerContainer{
+        display: flex;
+    }
+    header a{
+        display: inline-block;
+        margin: auto;
+    }
+    a:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+    }
+    a:active{
+        transform: scale(1);
+        transition: transform .0125s ease-out;
+    }
+    .arrowIconContainer{
+        width: 8%;
+        border-right: 4px solid rgba(72, 76, 82, 0.5);
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+    }
+    .arrowIcon{
+        display: inline-block;
+        width: 50%;
+        margin: auto;
+    }
+    i{
+        font-size: 30pt;
+    }
+    .headerTitleContainer{
+        width: 92%;
+        text-align: center;
+    }
+    .pageTitle{
+        display: inline-block;
+        font-size: 30pt;
+        margin: 2% auto;
+    }
+
+    main{
+        width: 80%;
+        margin: auto;
+    }
+    .mainR1TitleContainer{
+        text-align: center;
+        padding: 2% 0;
+        font-size: 20pt;
+        text-decoration: underline;
+    }
+    .demandFormContainer{
+        display: inline-block;
+        margin: auto;
+        width: 90%;
+        padding: 10%;
+    }
+    .typeDocRow{
+        display: flex;
+        justify-content: center;
+    }
+    .typeDoc{
+        display: inline-block;
+        width: 30%;
+        font-size: 12.5pt;
+        margin-left: 10%;
+    }
+    #typeDoc{
+        display: inline-block;
+        width: 40%;
+        border: none;
+        margin-right: 10%;
+        background: transparent;
+        border-bottom: 1px solid black;
+        padding-bottom: 1%;
+    }
+    .checkInfosPerso{
+        display: flex;
+        margin-top: 3%;
+        margin-left: 15%;
+    }
+    .checkboxInfosPerso{
+        display: inline-block;
+        font-size: 12.5pt;
+        width: 50%;
+        margin-top: 2%;
+    }
+    .checkInfosPerso div{
+        display: flex;
+        padding-right: 40%;
+    }
+    #checkInfos{
+        margin-left: 4%;
+    }
+    form{
+        margin: auto;
+        padding: 3%;
+    }
+    .textAfterCheckbox, select{
+        font-size: 12pt;
+    }
+    .newDmdBtnContainer{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .btn{
+        border-radius: 5pt;
+        color: whitesmoke;
+        font-size: 15pt;
+    }
+    .btn:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+        background: linear-gradient(#2057b6, #173e82);
+        box-shadow: 0 0 7pt 4pt #2057b66b;
+    }
+    .btn:active{
+        box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
+        transition: box-shadow .125s ease-out;
+        transform: scale(1);
+        transition: transform .125s ease-out;
+    }
+    .btnDemander{
+        border: none;
+        padding: 2.5% 5%;
+        background: linear-gradient(#2667d6, #2157b4);
+        box-shadow: 0 0 5pt 3pt #2057b66b;
+    }
+    .mainRow2{
+        padding: 2%;
+    }
+    .mainR2TitleContainer{
+        text-align: center;
+        margin: 2% 0;
+    }
+    .mainR2Title{
+        display: inline-block;
+        text-decoration: underline;
+        line-height: 44pt;
+        font-size: 15pt;
+    }
+    .dmdItemContainer{
+        width: 95%;
+        margin: 1% auto 4%;
+        padding: 1.5% 1%;
+        border: 2px solid #3f3e3e;
+        border-top-left-radius: 5pt;
+        border-top-right-radius: 5pt;
+    }
+    .dmdItemRow1{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 6%;
+    }
+    .dmdItemRow1 div{
+        display: inline-block;
+        width: 25%;
+    }
+    .spanHr span{
+        display: flex;
+        text-align: center;
+    }
+    .spanHr span span{
+        display: inline-block;
+        height: 30px;
+        font-size: 17pt;
+        color: #3f3e3e;
+        font-weight: bold;
+        width: 35px;
+        border: 1px solid #3f3e3e;
+        border-radius: 50%;
+    }
+    .numCinq{
+        padding: 0 5%;
+    }
+    .etatFin{
+        border: none;
+        translate: 5% 10%;
+    }
+    .hrFin{
+        display: inline-block;
+        width: 20%;
+    }
+    .spanHr hr{
+        display: inline-block;
+        margin: auto 0;
+        background: #3f3e3e;
+        padding: 0;
+        height: .5px;
+        width: 100%;
+    }
+    .dmdItemRow2>span,.dmdItemRow2>button{
+        display: inline-block;
+        width: 30%;
+        padding: 2% 0;
+        border: 1pt solid #3f3e3e;
+        margin: 0 auto;
+        font-size: 12.5pt;
+    }
+    .dmdItemRow2{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 12.5pt;
+    }
+    .dmdItemRow2>span:first-child{
+        width: 44%;
+    }
+    .dmdItemRow2>button{
+        width: 20%;
+        background: transparent;
+        border: 1pt solid #f85149;
+        box-shadow: 0 0 2pt 1pt #3f3e3e9a;
+        border-radius: 2pt;
+    }
+    .dmdItemRow2>button:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+        background:#f85149;
+        border: 1pt solid transparent;
+        color: whitesmoke;
+        box-shadow: 0 0 3pt 1.5pt #3f3e3e7e;
+    }
+    .dmdItemRow2>button:active{
+        box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
+        transition: box-shadow .125s ease-out;
+        transform: scale(1);
+        transition: transform .125s ease-out;
+    }
+
+    .legendList{
+        width: 60%;
+    }
+
+    .legendListItem1{
+        margin: 1%;
+        padding: 1%;
+        background: #5e84ec7e;
+        border-radius: 5pt;
+        font-size: 12pt;
+    }
+    .legendListItem{
+        margin: 1%;
+        padding: 1%;
+        background: #6268797e;
+        border-radius: 5pt;
+        font-size: 12pt;
+    }
+    .mainRow2 .dmdItemContainer:nth-child(3) .numQuatre,
+    .mainRow2 .dmdItemContainer:nth-child(4) .numDeux{
+        background: #6268797e;
+    }
+
+    .mainRow2 .dmdItemContainer:nth-child(5) .numCinq,
+    .mainRow2 .dmdItemContainer:nth-child(6) .numUn{
+        background: #5e84ec7e;
+    }
+
+
+
+    footer{
+        margin-top: 8%;
+        box-shadow: 0px 0px 5px 1px #3f3e3e;
+        background: linear-gradient(#c0d0eb28, rgba(37, 100, 210, 0.7));
+        color: #14181f;
+        width: 100%;
+        padding: 2% 0%;
+    }
+    .footerLeftPart{
+        padding-top: 1%;
+        padding-left: 10%;
+        font-size: 17.5pt;
+        width: 70%;
+    }
+    .footerContainer{
+        display: flex;
+    }
+    .footerRightPart{
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1% 10%;
+    }
+    .logoSocial{
+        width: 40px;
+    }
 }
