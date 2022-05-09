@@ -27,181 +27,365 @@ body{
 img{
     width: 100%;
 }
-header{
-    margin: 0;
-    padding: 0%;
-    box-shadow: 0px 0px 5px 1px #3f3e3e;
-    background: #2565d2;
-    color: whitesmoke;
-}
-.headerContainer{
-    display: flex;
-}
-header a{
-    display: inline-block;
-    margin: auto;
-}
-a:hover{
-    transform: scale(1.03);
-    transition: transform .125s ease-out;
-}
-a:active{
-    transform: scale(1);
-    transition: transform .0125s ease-out;
-}
-.arrowIconContainer{
-    width: 15%;
-    border-right: 2px solid rgba(72, 76, 82, 0.5);
-    display: flex;
-    justify-content: center;
-    margin: 2%;
-}
-.arrowIcon{
-    display: inline-block;
-    width: 50%;
-    margin: auto;
-}
-i{
-    font-size: 20pt;
-    text-shadow: 0px 0px 3px rgba(63, 62, 62, 0.3);
-}
-.headerTitleContainer{
-    width: 80%;
-    text-align: center;
-}
-.pageTitle{
-    display: inline-block;
-    font-size: 20pt;
-    margin: 4% auto;
-}
 
-main{
-    width: 90%;
-    margin: 10% auto 0;
-    border: 1px solid rgba(63, 62, 62, 0.3);
-    border-radius: 15pt;
-    background: #fff;
-    padding: 5% 0%;
-}
-.mainContainer{
-    width: 95%;
-    margin: auto;
-}
-.mainRow1{
-    width: 95%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid rgba(102, 121, 153, 0.4);
-    margin-top: 3%;
-    border-top-left-radius: 10pt;
-    border-top-right-radius: 10pt;
-}
-.profilCircle{
-    display: inline-block;
-    border: 10px solid #5286e0;
-    height: 150px;
-    width: 150px;
-    margin: 10%;
-    box-shadow: 0 0 5px 10px #749de4;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-}
-.profilIconContainer{
-    overflow: hidden;
-    width: 90%;
-}
-.profilIcon{
-    overflow: hidden;
-}
-.userInfosList{
-    list-style-type: none;
-    padding: 0 auto;
-}
-.iconUserContainer{
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    margin-top: 10pt;
-}
-.iconUserContainer>i{
-    display: inline-block;
-    margin: auto;
-    font-size: 700%;
-    color: whitesmoke;
-}
-.infosListItem{
-    display: inline-block;
-    width: 30%;
-    font-size: 13pt;
-    line-height: 35px;
-    color: #1d232c;
-    text-shadow: 0px 0px .5px #3d485c;
-    text-align: right;
-    padding-right: 5%;
-}
-.infosListItem2{
+@media  screen and (max-width: 600px) {
+    header{
+        margin: 0;
+        padding: 0%;
+        box-shadow: 0px 0px 5px 1px #3f3e3e;
+        background: #2565d2;
+        color: whitesmoke;
+    }
+    .headerContainer{
+        display: flex;
+    }
+    header a{
+        display: inline-block;
+        margin: auto;
+    }
+    a:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+    }
+    a:active{
+        transform: scale(1);
+        transition: transform .0125s ease-out;
+    }
+    .arrowIconContainer{
+        width: 15%;
+        border-right: 2px solid rgba(72, 76, 82, 0.5);
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+    }
+    .arrowIcon{
+        display: inline-block;
+        width: 50%;
+        margin: auto;
+    }
+    i{
+        font-size: 20pt;
+        text-shadow: 0px 0px 3px rgba(63, 62, 62, 0.3);
+    }
+    .headerTitleContainer{
+        width: 80%;
+        text-align: center;
+    }
+    .pageTitle{
+        display: inline-block;
+        font-size: 20pt;
+        margin: 4% auto;
+    }
+
+    main{
+        width: 90%;
+        margin: 10% auto 0;
+        border: 1px solid rgba(63, 62, 62, 0.3);
+        border-radius: 15pt;
+        background: #fff;
+        padding: 5% 0%;
+    }
+    .mainContainer{
+        width: 95%;
+        margin: auto;
+    }
+    .mainRow1{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid rgba(102, 121, 153, 0.4);
+        margin-top: 3%;
+        border-top-left-radius: 10pt;
+        border-top-right-radius: 10pt;
+    }
+    .profilCircle{
+        display: inline-block;
+        border: 10px solid #5286e0;
+        height: 150px;
+        width: 150px;
+        margin: 10%;
+        box-shadow: 0 0 5px 10px #749de4;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .profilIconContainer{
+        overflow: hidden;
+        width: 90%;
+    }
+    .profilIcon{
+        overflow: hidden;
+    }
+    .userInfosList{
+        list-style-type: none;
+        padding: 0 auto;
+    }
+    .iconUserContainer{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10pt;
+    }
+    .iconUserContainer>i{
+        display: inline-block;
+        margin: auto;
+        font-size: 700%;
+        color: whitesmoke;
+    }
+    .infosListItem{
+        display: inline-block;
+        width: 30%;
+        font-size: 13pt;
+        line-height: 35px;
+        color: #1d232c;
+        text-shadow: 0px 0px .5px #3d485c;
+        text-align: right;
+        padding-right: 5%;
+    }
+    .infosListItem2{
+        width: 70%;
+        font-size: 13pt;
+        color: #1d232c;
+        text-shadow: 0px 0px 1px #3d485c;
+        text-align: right;
+    }
+
+    .mainLine3{
+        margin-top: 10%;
+    }
+    .modifBtnContainer{
+        width: 100%;
+        text-align: center;
+    }
+    .modifBtn{
+        padding: 5% 15%;
+        border-radius: 5pt;
+        background: linear-gradient(#2667d6, #2157b4);
+        color: whitesmoke;
+        box-shadow: 0 0 5pt 3pt #2057b66b;
+        border: none;
+        font-size: 15pt;
+    }
+    .modifBtn:hover{
+        transform: scale(1.05);
+        transition: transform .125s ease-out;
+        background: linear-gradient(#2057b6, #173e82);
+        box-shadow: 0 0 7pt 4pt #2057b66b;
+    }
+    .modifBtn:active{
+        box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
+        transition: box-shadow .125s ease-out;
+        transform: scale(1);
+        transition: transform .125s ease-out;
+    }
+
+    footer{
+        margin-top: 15%;
+        display: inline-block;
+        box-shadow: 0px 0px 5px 1px #3f3e3e;
+        background: linear-gradient(#c0d0eb28, rgba(37, 100, 210, 0.7));
+        color: #14181f;
+        width: 100%;
+        padding: 2% 0;
+    }
+    .footerLeftPart{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 14pt;
     width: 70%;
-    font-size: 13pt;
-    color: #1d232c;
-    text-shadow: 0px 0px 1px #3d485c;
-    text-align: right;
+    }
+    .footerContainer{
+        display: flex;
+    }
+    .footerRightPart{
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1%;
+    }
+    .logoSocial{
+        width: 25px;
+    }
 }
+@media screen and (width >= 601px) and (width < 801px){
+    header{
+        margin: 0;
+        padding: 0%;
+        box-shadow: 0px 0px 5px 1px #3f3e3e;
+        background: #2565d2;
+        color: whitesmoke;
+    }
+    .headerContainer{
+        display: flex;
+    }
+    header a{
+        display: inline-block;
+        margin: auto;
+    }
+    a:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+    }
+    a:active{
+        transform: scale(1);
+        transition: transform .0125s ease-out;
+    }
+    .arrowIconContainer{
+        width: 15%;
+        border-right: 2px solid rgba(72, 76, 82, 0.5);
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+    }
+    .arrowIcon{
+        display: inline-block;
+        width: 50%;
+        margin: auto;
+    }
+    i{
+        font-size: 20pt;
+        text-shadow: 0px 0px 3px rgba(63, 62, 62, 0.3);
+    }
+    .headerTitleContainer{
+        width: 80%;
+        text-align: center;
+    }
+    .pageTitle{
+        display: inline-block;
+        font-size: 20pt;
+        margin: 4% auto;
+    }
 
-.mainLine3{
-    margin-top: 10%;
-}
-.modifBtnContainer{
-    width: 100%;
-    text-align: center;
-}
-.modifBtn{
-    padding: 5% 15%;
-    border-radius: 5pt;
-    background: linear-gradient(#2667d6, #2157b4);
-    color: whitesmoke;
-    box-shadow: 0 0 5pt 3pt #2057b66b;
-    border: none;
-    font-size: 15pt;
-}
-.modifBtn:hover{
-    transform: scale(1.05);
-    transition: transform .125s ease-out;
-    background: linear-gradient(#2057b6, #173e82);
-    box-shadow: 0 0 7pt 4pt #2057b66b;
-}
-.modifBtn:active{
-    box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
-    transition: box-shadow .125s ease-out;
-    transform: scale(1);
-    transition: transform .125s ease-out;
-}
+    main{
+        width: 90%;
+        margin: 10% auto 0;
+        border: 1px solid rgba(63, 62, 62, 0.3);
+        border-radius: 15pt;
+        background: #fff;
+        padding: 5% 0%;
+    }
+    .mainContainer{
+        width: 95%;
+        margin: auto;
+    }
+    .mainRow1{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid rgba(102, 121, 153, 0.4);
+        margin-top: 3%;
+        border-top-left-radius: 10pt;
+        border-top-right-radius: 10pt;
+    }
+    .profilCircle{
+        display: inline-block;
+        border: 10px solid #5286e0;
+        height: 150px;
+        width: 150px;
+        margin: 10%;
+        box-shadow: 0 0 5px 10px #749de4;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .profilIconContainer{
+        overflow: hidden;
+        width: 90%;
+    }
+    .profilIcon{
+        overflow: hidden;
+    }
+    .userInfosList{
+        list-style-type: none;
+        padding: 0 auto;
+    }
+    .iconUserContainer{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10pt;
+    }
+    .iconUserContainer>i{
+        display: inline-block;
+        margin: auto;
+        font-size: 700%;
+        color: whitesmoke;
+    }
+    .infosListItem{
+        display: inline-block;
+        width: 30%;
+        font-size: 13pt;
+        line-height: 35px;
+        color: #1d232c;
+        text-shadow: 0px 0px .5px #3d485c;
+        text-align: right;
+        padding-right: 5%;
+    }
+    .infosListItem2{
+        width: 70%;
+        font-size: 13pt;
+        color: #1d232c;
+        text-shadow: 0px 0px 1px #3d485c;
+        text-align: right;
+    }
 
-footer{
-    margin-top: 15%;
-    display: inline-block;
-    box-shadow: 0px 0px 5px 1px #3f3e3e;
-    background: linear-gradient(#c0d0eb28, rgba(37, 100, 210, 0.7));
-    color: #14181f;
-    width: 100%;
-    padding: 2% 0;
+    .mainLine3{
+        margin-top: 10%;
+    }
+    .modifBtnContainer{
+        width: 100%;
+        text-align: center;
+    }
+    .modifBtn{
+        padding: 5% 15%;
+        border-radius: 5pt;
+        background: linear-gradient(#2667d6, #2157b4);
+        color: whitesmoke;
+        box-shadow: 0 0 5pt 3pt #2057b66b;
+        border: none;
+        font-size: 15pt;
+    }
+    .modifBtn:hover{
+        transform: scale(1.05);
+        transition: transform .125s ease-out;
+        background: linear-gradient(#2057b6, #173e82);
+        box-shadow: 0 0 7pt 4pt #2057b66b;
+    }
+    .modifBtn:active{
+        box-shadow: 0 0 20pt 10pt rgba(87, 86, 86, 0.1);
+        transition: box-shadow .125s ease-out;
+        transform: scale(1);
+        transition: transform .125s ease-out;
+    }
+
+    footer{
+        margin-top: 15%;
+        display: inline-block;
+        box-shadow: 0px 0px 5px 1px #3f3e3e;
+        background: linear-gradient(#c0d0eb28, rgba(37, 100, 210, 0.7));
+        color: #14181f;
+        width: 100%;
+        padding: 2% 0;
+    }
+    .footerLeftPart{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 14pt;
+    width: 70%;
+    }
+    .footerContainer{
+        display: flex;
+    }
+    .footerRightPart{
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1%;
+    }
+    .logoSocial{
+        width: 25px;
+    }
 }
-.footerLeftPart{
- padding-top: 1%;
- padding-left: 2%;
- font-size: 14pt;
- width: 70%;
-}
-.footerContainer{
-    display: flex;
-}
-.footerRightPart{
-    width: 30%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 1%;
-}
-.logoSocial{
-    width: 25px;
-}
+@media screen and (width >= 801px) {}
