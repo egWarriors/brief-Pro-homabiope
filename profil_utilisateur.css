@@ -1,6 +1,16 @@
 .backlink-menuprofile{
     display: flex;
 }
+.arrowContainer{
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+    padding: 20% 30%;
+}
+i{
+    font-size: 20pt;
+    color: whitesmoke;
+}
 header{border-bottom: 1px solid rgb(95, 84, 84);
     background: #2565d2;  
 }
