@@ -1,6 +1,14 @@
 *{
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(Lassets/Fonts/ato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(assets/Fonts/Lato-Regular.ttf);
+}
 header{
     display: flex;
     border: 1px none ;
@@ -9,25 +17,30 @@ header{
     background-color: #2565d2;
     color: whitesmoke;
 }
+
 body{
-    background-color: #d9d9d9;
+    background: #f3f2ef;
+    margin: 0%;
 }
-.Iconretour{
-    width: 80px;
-    height: 50px;
-}
+
 .titredepage{
     border-top:1px none  ;
-    border-left: 1pt solid black ;
+    border-left: 1pt solid gray ;
     border-bottom: none;
-    margin: 6px 2PX  3px 4px;
-    padding: 9px 2PX  3px 4px; 
-    font-size: 200;  
+    margin: 6px 2PX  3px 10px;
+    padding: 9px 2PX  3px 20px; 
+    font-size: large;  
+    margin-bottom: 5px;
+    font-family: 'Lato-Bold';
 }
 main{
-    border: 1px solid black;
+
     margin: 20px;
     border-radius: 10px;
+    background: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 form{
     /*border: 1px solid;*/
@@ -42,7 +55,8 @@ input{
     border-left: none ;
     border-bottom: 2px solid gray;
     border-right: none;
-    background-color: #d9d9d9;
+    background: whitesmoke;
+    font-family: 'Lato-Regular';
 
 }
 /*.pseudo_admin{
@@ -54,20 +68,116 @@ input{
 }*/
 .connexion_admin{
     display: block;
-    padding: 20px;
-    width: 50%;
-    margin-left: 32.5%;
-    margin-right: 32.5%;
-    font-size: large;
+    padding: 12px;
+    width: 200px;
+    /*margin-left: 30%;
+    margin-right: 32.5%;*/
+    margin: auto;
     background: linear-gradient(#2057b6,#173e82);
     margin-top: 100px;
     color: whitesmoke;
     border-radius: 10px;
+    font-family: 'Lato-Regular';
 
 }
 button{
-    font-size: 100;
+    font-size: 150;
 }
 button:hover{
-    box-shadow: 0 0 7pt 4pt #2057B6;
+    box-shadow: 0 0 3pt 3pt #2057B6;
+    padding: 11px;
 }
+i{
+    color: whitesmoke;
+    font-size:xx-large;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+@media screen and (min-width:500px) {
+    .titredepage{
+        font-size: x-large;
+        padding-left: 150px;
+    }   
+}
+@media screen and (min-width:768px) {
+    main{
+
+        margin: 50px;
+        box-shadow: 2px 4px 2px 2px grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    body{
+        background: #d9d9d9;
+    }
+    input{
+
+        margin-bottom: 50px;
+        padding-top: 50px;
+    
+    
+    }
+
+    .titredepage{
+        font-size: xx-large;
+        padding-left: 200px;
+    }
+    i{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    .connexion_admin{
+        display: block;
+        padding: 20px;
+        width: 200px;
+        font-size: x-large;
+    
+    }
+}
+@media screen and (min-width: 992px) {
+    main{
+
+        width: 800px;
+        box-shadow: 2px 1px 1px 2px rgb(224, 224, 224);
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+
+        
+    }
+    .titredepage{
+        font-size: xx-large;
+        padding-left: 300px;
+    }
+    .connexion_admin{
+        display: block;
+        padding: 20px;
+        width: 200px;
+        font-size: x-large;
+    
+    }
+
+}
+@media screen and (min-width:1200px) {
+    .titredepage{
+        font-size: xx-large;
+        padding-left: 400px;
+    }
+    main{
+
+        width: 800px;
+        box-shadow: 2px 1px 1px 2px rgb(224, 224, 224);
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+
+        
+
+}
+ }

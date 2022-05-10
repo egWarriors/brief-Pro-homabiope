@@ -1,24 +1,33 @@
 *{
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(Lassets/Fonts/ato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(assets/Fonts/Lato-Regular.ttf);
+}
+body{
+    background: #f3f2ef;
+    margin: 0%;
+}
 /*header*/
 header{
     display: flex;
-    /*border: 1px solid black;*/
     box-shadow: 0px 0px 2px 1px #3f3e3e;
-     margin-bottom: 15px;
-     background-color: #2565d2;
-     color: whitesmoke;
+    margin-bottom: 15px;
+    background-color: #2565d2;
+    color: whitesmoke;
 }
-body{
-    background-color: #d9d9d9;
+i{
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: xx-large;
 }
-.Iconretour, .iconprofil{
-    width: 80px;
-    height: 40px;
-    /*border: 1px solid ;*/
 
-}
 .titredepage{
     width: 70%;
     padding-top: 10px;
@@ -28,52 +37,195 @@ body{
     border-left: 1px solid gray ;
     font-size: large;
     text-align: center;
+    padding-bottom: 8px;
+    font-family: 'Lato-Bold';
 }
+
 /*main*/
 .menu{
     display: flex;
     justify-content: space-between;
 }
+main{
+    background: whitesmoke;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 1px 1px 1px 1px #749DE480;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #document{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-left: -10%;
 }
 #pagenumber{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 30px;
+    margin-bottom: 5px;
   
 }
-option{
-    border: 1pt solid black;  
-}
+
 table{
-    border: 1px solid black;
+
     width: 100%;
 }
 th, td{
     padding: 15px;
     border: 1px solid black;
+    font-family: 'Lato-Regular';
+
 }
- .scrollbar{
+.scrollbar{
      display: flex;
-     justify-content: space-between;
      float: right;
  }
  .previous, .next{
-    width: 80px;
-    height: 40px;
+    width: 50px;
+    height: 20px;
  }
+
 /*FOOTER*/
 footer{
     display: flex;
     justify-content: space-between;
     margin-top: 25%;
-    background-color: #c0d0ed;
+    background: linear-gradient(to bottom, white, #2565d2);
     box-shadow: #c0d0ed;
+    padding: 10px;
 
 }
 .icone_reseau_social{
     width: 25px;
 }
+@media screen and (min-width:500px) {
+    #document{
+        width: 180px;
+        height: 20px;
+        margin-left: -10%;
+    }
+    #pagenumber{
+        width: 80px;
+        height: 10px;
+        margin-bottom: 10px;
+        padding: 10PX;
+        border: 0.5px solid black;
+      
+    }
+}
+@media screen and (min-width:667px) {
+    #document{
+        width: 180px;
+        height: 20px;
+        margin-left: -25%;
+    }
+    #pagenumber{
+        width: 100px;
+        height: 10px;
+        margin-bottom: 10px;
+        padding: 10PX;
+        border: 0.5px solid black;
+      
+    }
+    .icon-header{
+        width: 15%;
+    }
+    i{
+        margin-left: 30px;
+    }
+    .scrollbar{
+        display: flex;
+        justify-content: space-between;
+        float: right;
+        
+    }
+    .previous, .next{
 
+       width: 50px;
+       height: 20px;
+    }
+    
+
+    .drop_icons{
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    main{
+
+        margin: 50px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        
+    }
+    body{
+        background: #f3f2ef;
+    }
+    input{
+
+        margin-bottom: 50px;
+        padding-top: 50px;
+        font-family: 'Lato-Regular';
+    
+    
+    }
+
+    .titredepage{
+        font-size: x-large;
+    }
+    i{
+        font-size: 40px;
+    }
+    #document{
+        width: 180px;
+        height: 20px;
+        margin-left: -20%;
+    }
+    #pagenumber{
+        width: 150px;
+        height: 10px;
+        margin-bottom: 10px;
+        padding: 10PX;
+        border: 0.5px solid black;
+      
+    }
+}
+@media screen and (min-width: 992px) {
+    main{
+
+        width: 600px;
+        margin: auto;
+        margin-top: 40px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+        
+    } 
+}
+@media screen and (min-width:1200px) {
+
+    #document{
+        width: 180px;
+        height: 20px;
+        margin-left: 0.5px;
+    }
+    #pagenumber{
+        width: 150px;
+        height: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        margin-left: 5px;
+      
+    }
+    main{
+        margin-bottom: 40px;
+        padding: 30px;
+    }
+}
