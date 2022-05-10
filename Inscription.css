@@ -131,6 +131,10 @@ footer{
     justify-content: space-around;
     height: 100px;
 }
+.input-nom{
+    width: 230px;
+    margin-left: -30px;
+}
 footer img{
     width: 50px;
     margin-top: 20px;
