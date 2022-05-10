@@ -73,7 +73,8 @@ button{
     padding: 20px;
 }
 button:hover{
-    box-shadow: 0 0 7pt 4pt #2057b6;
+    box-shadow: 0 0 3pt 2pt #2057b6;
+   
 }
 footer{
     box-shadow: 0 0 2px 1px #3f3e3e;
@@ -83,5 +84,55 @@ footer{
 }
 footer img{
     width: 25px;
-
+}
+/*Le responsive*/
+@media screen and (min-width:800px){
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 40%;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.design{
+    width: 900px;
+    border: 1px solid #3f3e3e;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2PX 1px #3f3e3e;
+    background-image: url(assets/Images/armoirie.png);
+    background-size: cover;
+}
+header{
+height: 150px;
+}
+.fleche_container{
+    width: 10%;
+    border-right: 1px solid black;  
+}
+.text_container{
+    width: 80%;
+    margin-left: 700px;
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: bolder; 
+}
+footer{
+    box-shadow: 0 0 2px 1px #3f3e3e;
+    background-color: #C0d0eb;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+footer img{
+    width: 50px;
+    margin-top: 20px;
+}
 }
