@@ -1,0 +1,75 @@
+.back-link{
+    width: 50px;
+    border-top: 1px none;
+    border-right: 2px solid rgb(39, 34, 34);
+    border-left: 1px none;
+    border-bottom: 1px none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.icone-textconnexion-container{
+    display: flex;
+    box-shadow: 0px 0px 2px 0px gray;
+    border: none;
+}
+.text-connexion{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+*{
+    box-sizing: border-box;
+}
+.mail-container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.forget-passeword{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.connexion-button{
+    margin-top: 20px;
+}
+.connexion-button{
+    margin-top: 30px;
+}
+.no-account{
+    margin-top: 40px;
+}
+form{
+    margin: 100px 20px 100px 20px;
+}
+input{
+    width: 100%;
+    border-top: 1px none;
+    border-bottom: 1px solid #3f3e3e;
+    border-right: 1px none;
+    border-left: 1px none;
+}
+body{
+    background: #d9d9d9;
+}
+header{
+    background: #2565d2;  
+    color: whitesmoke;
+    box-shadow: 0px 0px 2px 1px #3f3e3e;
+}
+main{
+    box-shadow: 0px 0px 4px 1px #3f3e3e;
+    background: #c0d0eb;
+}
+footer{
+    box-shadow: 0px 0px 2px 1px #3f3e3e;
+    background: #c0d0eb;
+}
+button{
+    background: linear-gradient(#205766, #173e82) ;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+

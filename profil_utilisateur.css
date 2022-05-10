@@ -1,0 +1,66 @@
+.backlink-menuprofile{
+    display: flex;
+}
+header{border-bottom: 1px solid rgb(95, 84, 84);
+    background: #2565d2;  
+}
+body{
+    border: 1px solid rgb(95, 84, 84);
+    background: #d9d9d9;
+}
+main{
+    box-shadow: 0px 0px 4px 1px #3f3e3e;
+    background: #c0d0eb;
+}
+.backlink{
+    width: 50px;
+    height: 50px;
+    border-top: 1px none;
+    border-bottom: 1px none;
+    border-left: 1px none;
+    border-right: 2px solid rgb(39, 34, 34);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menuprofile{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.man-circle-container{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 30%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input{
+    display: flex;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    margin-left: 10px;     
+}
+button{
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background: linear-gradient(#205766, #173e82) ;
+}
+.reseausocial{
+    height: 20px;
+    width: 20px;
+}
+footer{
+     display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px 1px #3f3e3e;
+    background: #c0d0eb;
+}
