@@ -54,7 +54,7 @@ nav a:hover{
     padding-top: 10px;
     justify-content: space-around;
 }
-.four-items-container{
+.four-items-container, .suite_a-propos{
     display: none;
 }
 .container-item img{
@@ -109,8 +109,7 @@ input{
     height: 10px;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 5px;
-    
+    margin-top: 5px;  
 }
 textarea{
     width: 100px; 
@@ -140,7 +139,6 @@ font-size: small;
 color: whitesmoke;
 margin-top: 5px;
 margin-left: 5px;
-
 }
 .message_alerte{
     border: 1px solid black;
@@ -245,7 +243,8 @@ margin-left: 5px;
     }
     .container-cartes{
         animation: Carrousel 30s ease-in-out alternate infinite;
-        overflow: hidden;
+        flex: 1 0 450px;
+        overflow: scroll;
         display: flex;
         justify-content: space-around;
         padding: 10px;
@@ -286,5 +285,69 @@ margin-left: 5px;
     @font-face {
         font-family: Lato-Regular;
         src: url(Lato-Regular.ttf);
+    }
+    .a-propos{
+        width: 173;
+        height: 140px;
+        border-radius: 10px;
+        margin-top: 2px;
+        box-shadow: 0 0 2px 1px #3f3e3e;
+    }
+    .suite_a-propos{
+        display: inline;
+        text-align: center;
+    }
+    
+.vidéo img{
+    margin: 8px;
+    width: 500px;
+    height: 280px;
+    border-radius: 20px;
+}
+    /*footer*/
+    input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;  
+}
+textarea{
+    width: 200px; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.reseau_sociaux{
+    width: 50px;
+    display: inline-block;
+}
+.message_alerte{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #e3e4e8;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.adresse{
+    font-size: large;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+button{
+    padding: 16px;
+    width: 200px;
+    background-color: #399932;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: X-large;
+    margin-top: 20px;
     }
 }
