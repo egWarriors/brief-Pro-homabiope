@@ -19,14 +19,17 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url(./assets/Images/background-body-mobile.jpg) no-repeat fixed center;
+    background: #f3f2ef;
+}
+.bodySecond{
+    background-image: url(./assets/Images/background.png);
 }
 img{
     width: 100%;
 }
 @media  screen and (max-width: 600px) {
-    body{
-        background: whitesmoke;
+    .bodySecond{
+        background: #ffffff;
     }
     header{
         margin: 0;
@@ -316,7 +319,7 @@ img{
 
 @media screen and (width >= 601px) and (width < 800px){
     .bodySecond{
-        background: #fff;
+        background-size: contain;
     }
     body{
         background-size: cover;
@@ -625,7 +628,7 @@ img{
 
 @media screen and (width >= 801px) {
     .bodySecond{
-        background: #fff;
+        background-size: contain;
     }
     body{
         background-size: cover;
