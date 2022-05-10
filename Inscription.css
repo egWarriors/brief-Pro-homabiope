@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(assets/Images/background-body-mobile.jpg);
+}
+.page_container{
+    background-color: #d9d9d9;
+
+}
+header{
+    box-shadow: 0px 0px 2PX 1px #3f3e3e;
+    background-color: #2565d2;
+}
+.headercontainer{
+    display: flex;
+}
+.fleche_container{
+    width: 20%;
+    border-right: 1px solid black;  
+}
+.text_container{
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bolder;
+   
+}
+.info_container{
+    margin-top: 50px;
+}
+.names_container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.email{
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 80px;
+}
+.checkbox{
+    display: flex;
+    margin-left: 20px;   
+}
+.confirmation-text strong{
+    text-decoration-line: underline;
+}
+.confirmation-text strong:hover{
+    color: #2057b6;
+}
+.confirmation-text{
+    margin-left: 20px;
+}
+input{
+    border-bottom: 1px solid #3f3e3e;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    background-color: #d9d9d9;
+}
+    
+button{
+    width: 50%;
+    margin: 70px;
+    margin-left: 95px;
+    font-size: large;
+    background: linear-gradient(#2057b6, #173e82);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 20px;
+}
+button:hover{
+    box-shadow: 0 0 3pt 2pt #2057b6;
+   
+}
+footer{
+    box-shadow: 0 0 2px 1px #3f3e3e;
+    background-color: #C0d0eb;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+.icon-reseau a{
+    margin-top: 20px;
+    width: 25px;
+    display: inline-block;
+}
+.copyrigth{
+    margin-top: 15px;
+}
+.icon-reseau{
+    margin-left: 20px;
+}
+/*Le responsive*/
+@media screen and (min-width:800px){
+    .main-container{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 40%;
+        border: 1px solid black;
+        margin-left: 85px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        }
+    .design{
+        width: 900px;
+        border: 1px solid #3f3e3e;
+        height: 600px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2PX 1px #3f3e3e;
+        background-image: url(assets/Images/armoirie.png);
+        background-size: cover;
+    }
+    header{
+    height: 150px;
+    }
+    .fleche_container{
+        width: 10%;
+        border-right: 1px solid black;  
+    }
+    .text_container{
+        width: 80%;
+        margin-left: 700px;
+        margin-top: 50px;
+        color: aliceblue;
+        font-size: x-large;
+        font-weight: bolder; 
+    }
+    footer{
+        box-shadow: 0 0 2px 1px #3f3e3e;
+        background-color: #C0d0eb;
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+    }
+    .input-nom{
+        width: 230px;
+        margin-left: -30px;
+    }
+    button{
+        width: 50%;
+        margin: 70px;
+        margin-left: 150px;
+        font-size: x-large;
+    }
+    .icon-reseau a{
+        width: 50px;
+        margin-top: 20px;
+    }
+    .copyrigth{
+        margin-top: 50px;
+    }
+    input{
+        background-color:#f5f5f5;   
+    }
+}
+
