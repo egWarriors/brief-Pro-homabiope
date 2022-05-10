@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(Lassets/Fonts/ato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(assets/Fonts/Lato-Regular.ttf);
+}
+/*header*/
+header{
+    display: flex;
+    /*border: 1px solid black;*/
+     box-shadow: 0px 0px 2px 1px #3f3e3e;
+     margin-bottom: 15px;
+     background-color: #2565d2;
+     color: whitesmoke;
+     font-family: Lato-Bold;
+     
+}
+
+body{
+    background: url(assets/Images/background-body-mobile.jpg) no-repeat ;
+    margin: 0%;
+} 
+strong, .titre{
+    font-family: 'Lato-Bold';
+}
+span{
+    font-family: 'Lato-Regular';
+}
+
+i{
+    color: whitesmoke;
+    font-size:xx-large;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.titredepage{
+    width: 70%;
+    padding-top: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: 1px solid gray ;
+    font-size: large;
+    text-align: center;
+    font-family: 'Lato-Regular';
+}
+  /*main*/
+.menus{
+    margin-top: -10px;
+    background-color: white;
+    font-family: 'Lato-Regular';
+}
+
+table{
+    width: 100%;
+}
+th, td{
+    padding: 5px;
+    border: 1px solid gray;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: rgb(38, 0, 255);
+}
+.titre{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.documents{
+    padding: 3px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    background: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.Carte_doperateur_economique{
+    border: 1px solid gray;
+    width: 110px;
+  
+    padding: 10px;
+}
+
+.Contener_text_img{
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: x-small;
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: #c0d0ed;
+
+}
+.document{
+    width: 100%;
+    margin-left: px;
+    margin-right: px;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+.document_description{
+    width: px;
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25%;
+    background: linear-gradient(to bottom, white, #2565d2);
+    box-shadow: #c0d0ed;
+    padding: 10px;
+
+}
+.icone_reseau_social{
+    width: 25px;
+}
+.menus{
+    font-family: Lato-Regular;
+}
+@media screen and (min-width:500px) {
+    .Contener_text_img{
+        width: 200px;
+    
+    }
+    .document{
+        width: 147px;
+        margin-left: 1px;
+    }
+}
+@media screen and (min-width:667px) {
+    body{
+        background: whitesmoke;
+    }
+    .document{
+        width: 195px;
+        margin-left: 1px;
+    }
+
+@media screen and (min-width:768px) {
+    main{
+
+        margin: 50px;
+        box-shadow: 2px 4px 2px 2px grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: white;
+        border-radius: 10px;
+        
+    }
+    th, td{
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid whitesmoke;
+        border-right: 1px solid whitesmoke;
+        border-top-right-radius: 5px ;
+    }
+    .documents{
+        box-shadow: none;
+    }
+    body{
+        background: whitesmoke;
+    }
+
+    header{
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+        padding-left: 0px;
+
+    }
+    .titredepage{
+        font-size: xx-large;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    i{
+        font-size: 40px;
+        margin-right: 10px;
+    }
+
+}
+@media screen and (min-width: 980px) {
+    .document{
+        padding-bottom: 20px;
+         }
+    .documents{
+         padding-bottom: 20px; 
+        height: 50%;
+         }
+    .menus{
+        width: 750px;
+        background: white;
+        margin: auto;
+    }
+
+}
+@media screen and (min-width:1200px) {
+    header{
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+        width: 100%;
+        margin: auto;
+    }
+    #document{
+        padding: 0%;
+        height: 120px;
+        margin-left: 0.5px;
+        border-radius: 0%;
+    }
+    .Contener_text_img{
+        padding-bottom: 10%;
+        width: 300px;
+    }
+    main{
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 5px;
+    }
+    .document{
+        width: 100%;
+    }
+
+}
+
+}
+
+
