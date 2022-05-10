@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="historique-demandes.css">
+        <link rel="stylesheet" href="./assets/Icons/fontawesome-free-6.1.1-web/css/all.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Historique des Demandes</title>
+    </head>
+<body>
+    <div class="bodySecond">
+        <header>
+            <div class="headerContainer">
+                <div class="arrowIconContainer">
+                    <span class="arrowIcon"><a href="./index.html"><i class="fa fa-arrow-left"></i></a></span>
+                </div>
+                <div class="headerTitleContainer">
+                    <span class="pageTitle latoBold">Historiques Demandes</span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="mainContainer lato">
+                <section class="mainRow1">
+                    <div class="mainR1TitleContainer">
+                        <span class="mainR1Title">Nouvelle Demande</span>
+                    </div>
+                    <div class="demandFormContainer">
+                        <div class="illustrContainer">
+                            <div class="mainR1TitleContainerDesk">
+                                <span class="mainR1Title">Nouvelle Demande</span>
+                            </div>
+                            <div class="illustrationContainer">
+                                <img src="./assets/Icons/Online document-rafiki.png" alt="">
+                            </div>
+                        </div>
+                        <form action="">
+                            <div class="typeDocRow">
+                                <label for="typeDoc" class="typeDoc">Type de Document:</label>
+                                <select name="Choisissez un Document" id="typeDoc">
+                                    <option value="choix">Choisissez un Document</option>
+                                    <option value="naissance">Acte de Naissance</option>
+                                    <option value="nationnalite">Certificat de Nationnalité</option>
+                                    <option value="carteIdentite">Carte d'Identité Nationnale</option>
+                                    <option value="casierJudiciaire">Casier Judiciaire</option>
+                                    <option value="carteOperateur">Carte d'Opérateur Economique</option>
+                                    <option value="acteMariage">Acte de Mariage</option>
+                                    <option value="passeport">Passeport</option>
+                                    <option value="carteSejour">Carte de Séjour</option>
+                                    <option value="livretFamille">Livret de Famille</option>
+                                </select>
+                            </div>
+                            <div class="checkInfosPerso">
+                                <label for="checkInfos" class="checkboxInfosPerso">Informations Perso.:</label>
+                                <div>
+                                    <input type="checkbox" name="" id="checkInfos">
+                                    <span class="textAfterCheckbox">Infos. perso. remplies Oui/Non</span>
+                                </div>
+                            </div>
+                            <div class="newDmdBtnContainer">
+                                <button type="submit" class="btn btnDemander">Demander</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <div class="separateur"><hr></div>
+                <section class="mainRow2">
+                    <div class="mainR2TitleContainer">
+                        <span class="mainR2Title">Liste des Documents</span>
+                    </div>
+                    <div class="mainLegend">
+                        <div class="legendListContainer">
+                            <ol class="legendList">
+                                <li class="legendListItem1">Information Personnelles</li>
+                                <li class="legendListItem">Demande Lancée</li>
+                                <li class="legendListItem1">Validation</li>
+                                <li class="legendListItem">Payement</li>
+                                <li class="legendListItem1">Demande Traitée</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="dmdItemContainer">
+                        <div class="dmdItem">
+                            <div class="dmdItemRow1">
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numUn">1</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numDeux">2</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numTrois">3</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numQuatre">4</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numCinq">5</span>
+                                        <hr class="hrFin">
+                                        <span class="etatFin">Fin</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="dmdItemLegend">
+                                <div class="itemLegend legend1">Infos. Perso.</div>
+                                <div class="itemLegend legend2">Demande Lancée</div>
+                                <div class="itemLegend legend3">Validation</div>
+                                <div class="itemLegend legend4 active">Traitement</div>
+                                <div class="itemLegend legend5">Demande Traitée</div>
+                                <div class="itemLegend legend6"></div>
+                            </div>
+                            <div class="dmdItemRow2">
+                                <span>Type: Passeport</span>
+                                <span>Date: 01-01-22</span>
+                                <button>Annuler</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dmdItemContainer">
+                        <div class="dmdItem">
+                            <div class="dmdItemRow1">
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numUn">1</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numDeux">2</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numTrois">3</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numQuatre">4</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numCinq">5</span>
+                                        <hr class="hrFin">
+                                        <span class="etatFin">Fin</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="dmdItemLegend">
+                                <div class="itemLegend legend1">Infos. Perso.</div>
+                                <div class="itemLegend legend2 active">Demande Lancée</div>
+                                <div class="itemLegend legend3">Validation</div>
+                                <div class="itemLegend legend4">Traitement</div>
+                                <div class="itemLegend legend5">Demande Traitée</div>
+                                <div class="itemLegend legend6"></div>
+                            </div>
+                            <div class="dmdItemRow2">
+                                <span>Type: Carte de Sejour</span>
+                                <span>Date: 21-04-22</span>
+                                <button>Annuler</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dmdItemContainer">
+                        <div class="dmdItem">
+                            <div class="dmdItemRow1">
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numUn">1</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numDeux">2</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numTrois">3</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numQuatre">4</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numCinq">5</span>
+                                        <hr class="hrFin">
+                                        <span class="etatFin">Fin</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="dmdItemLegend">
+                                <div class="itemLegend legend1">Infos. Perso.</div>
+                                <div class="itemLegend legend2">Demande Lancée</div>
+                                <div class="itemLegend legend3">Validation</div>
+                                <div class="itemLegend legend4">Traitement</div>
+                                <div class="itemLegend legend5 active">Demande Traitée</div>
+                                <div class="itemLegend legend6"></div>
+                            </div>
+                            <div class="dmdItemRow2">
+                                <span>Type:Carte d'Identité</span>
+                                <span>Date: 09-05-11</span>
+                                <button>Annuler</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dmdItemContainer">
+                        <div class="dmdItem">
+                            <div class="dmdItemRow1">
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numUn">1</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numDeux">2</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numTrois">3</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numQuatre">4</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numCinq">5</span>
+                                        <hr class="hrFin">
+                                        <span class="etatFin">Fin</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="dmdItemLegend">
+                                <div class="itemLegend legend1 active">Infos. Perso.</div>
+                                <div class="itemLegend legend2">Demande Lancée</div>
+                                <div class="itemLegend legend3">Validation</div>
+                                <div class="itemLegend legend4">Traitement</div>
+                                <div class="itemLegend legend5">Demande Traitée</div>
+                                <div class="itemLegend legend6"></div>
+                            </div>
+                            <div class="dmdItemRow2">
+                                <span>Type: Nationalité</span>
+                                <span>Date: 10-11-21</span>
+                                <button>Annuler</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dmdItemContainer">
+                        <div class="dmdItem">
+                            <div class="dmdItemRow1">
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numUn">1</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numDeux">2</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numTrois">3</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numQuatre">4</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numCinq">5</span>
+                                        <hr class="hrFin">
+                                        <span class="etatFin">Fin</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="dmdItemLegend">
+                                <div class="itemLegend legend1">Infos. Perso.</div>
+                                <div class="itemLegend legend2">Demande Lancée</div>
+                                <div class="itemLegend legend3">Validation</div>
+                                <div class="itemLegend legend4 active">Traitement</div>
+                                <div class="itemLegend legend5">Demande Traitée</div>
+                                <div class="itemLegend legend6"></div>
+                            </div>
+                            <div class="dmdItemRow2">
+                                <span>Type: Passeport</span>
+                                <span>Date: 01-01-22</span>
+                                <button>Annuler</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dmdItemContainer">
+                        <div class="dmdItem">
+                            <div class="dmdItemRow1">
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numUn">1</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numDeux">2</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numTrois">3</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numQuatre">4</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numCinq">5</span>
+                                        <hr class="hrFin">
+                                        <span class="etatFin">Fin</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="dmdItemLegend">
+                                <div class="itemLegend legend1">Infos. Perso.</div>
+                                <div class="itemLegend legend2 active">Demande Lancée</div>
+                                <div class="itemLegend legend3">Validation</div>
+                                <div class="itemLegend legend4">Traitement</div>
+                                <div class="itemLegend legend5">Demande Traitée</div>
+                                <div class="itemLegend legend6"></div>
+                            </div>
+                            <div class="dmdItemRow2">
+                                <span>Type: Carte de Sejour</span>
+                                <span>Date: 21-04-22</span>
+                                <button>Annuler</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dmdItemContainer">
+                        <div class="dmdItem">
+                            <div class="dmdItemRow1">
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numUn">1</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numDeux">2</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numTrois">3</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numQuatre">4</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numCinq">5</span>
+                                        <hr class="hrFin">
+                                        <span class="etatFin">Fin</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="dmdItemLegend">
+                                <div class="itemLegend legend1">Infos. Perso.</div>
+                                <div class="itemLegend legend2">Demande Lancée</div>
+                                <div class="itemLegend legend3">Validation</div>
+                                <div class="itemLegend legend4">Traitement</div>
+                                <div class="itemLegend legend5 active">Demande Traitée</div>
+                                <div class="itemLegend legend6"></div>
+                            </div>
+                            <div class="dmdItemRow2">
+                                <span>Type:Carte d'Identité</span>
+                                <span>Date: 09-05-11</span>
+                                <button>Annuler</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dmdItemContainer">
+                        <div class="dmdItem">
+                            <div class="dmdItemRow1">
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numUn">1</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numDeux">2</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numTrois">3</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numQuatre">4</span>
+                                        <hr>
+                                    </span>
+                                </div>
+                                <div class="spanHr">
+                                    <span>
+                                        <span class="numCinq">5</span>
+                                        <hr class="hrFin">
+                                        <span class="etatFin">Fin</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="dmdItemLegend">
+                                <div class="itemLegend legend1 active">Infos. Perso.</div>
+                                <div class="itemLegend legend2">Demande Lancée</div>
+                                <div class="itemLegend legend3">Validation</div>
+                                <div class="itemLegend legend4">Traitement</div>
+                                <div class="itemLegend legend5">Demande Traitée</div>
+                                <div class="itemLegend legend6"></div>
+                            </div>
+                            <div class="dmdItemRow2">
+                                <span>Type: Nationalité</span>
+                                <span>Date: 10-11-21</span>
+                                <button>Annuler</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footerContainer">
+                <div class="footerLeftPart">
+                    <span class="copyrightsText lato">&copy; Copyrights HomaBiopé</span>
+                </div>
+                <div class="footerRightPart">
+                    <a href="#"><img src="./assets/Icons/logo-facebook.svg" class="logoSocial" alt=""></a>
+                    <a href="#"><img src="./assets/Icons/logo-twitter.svg" class="logoSocial" alt=""></a>
+                    <a href="#"><img src="./assets/Icons/logo-linkedin.svg" class="logoSocial" alt=""></a>
+                    <a href="#"><img src="./assets/Icons/logo-instagram.svg" class="logoSocial" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
