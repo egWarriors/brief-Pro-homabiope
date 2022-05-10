@@ -2,10 +2,15 @@
     display: flex;
 }
 header{border-bottom: 1px solid rgb(95, 84, 84);
-    
+    background: #2565d2;  
 }
 body{
     border: 1px solid rgb(95, 84, 84);
+    background: #d9d9d9;
+}
+main{
+    box-shadow: 0px 0px 4px 1px #3f3e3e;
+    background: #c0d0eb;
 }
 .backlink{
     width: 50px;
@@ -14,6 +19,8 @@ body{
     border-bottom: 1px none;
     border-left: 1px none;
     border-right: 2px solid rgb(39, 34, 34);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .menuprofile{
     text-transform: uppercase;
@@ -23,8 +30,6 @@ body{
 .man-circle-container{
     height: 100px;
     width: 100px;
-    clip-path: circle();
-    align-items: center;
     border-radius: 50%;
     margin-left: 30%;
     border: 1px solid black;
@@ -47,6 +52,7 @@ button{
     margin-bottom: 20px;
     padding: 10px;
     font-weight: bold;
+    background: linear-gradient(#205766, #173e82) ;
 }
 .reseausocial{
     height: 20px;
@@ -55,4 +61,6 @@ button{
 footer{
      display: flex;
     justify-content: space-between;
+    box-shadow: 0px 0px 2px 1px #3f3e3e;
+    background: #c0d0eb;
 }
