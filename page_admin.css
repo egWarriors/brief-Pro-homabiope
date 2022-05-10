@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #f3f2ef;
+    margin: 0%;
+}
+/*header*/
+header{
+    display: flex;
+    box-shadow: 0px 0px 2px 1px #3f3e3e;
+    margin-bottom: 15px;
+    background-color: #2565d2;
+    color: whitesmoke;
+}
+i{
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: xx-large;
+}
+
+.titredepage{
+    width: 70%;
+    padding-top: 10px;
+    border-top: none;
+    border-right: 1px solid gray;
+    border-left: none;
+    border-left: 1px solid gray ;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+/*main*/
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background: whitesmoke;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#document{
+    width: 20px;
+    height: 20px;
+    margin-left: -10%;
+}
+#pagenumber{
+    width: 40px;
+    height: 30px;
+    margin-bottom: 5px;
+  
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+th, td{
+    padding: 15px;
+    border: 1px solid black;
+}
+.scrollbar{
+     display: flex;
+     float: right;
+ }
+ .previous, .next{
+    width: 50px;
+    height: 20px;
+ }
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25%;
+    background: linear-gradient(to bottom, white, #2565d2);
+    box-shadow: #c0d0ed;
+    padding: 10px;
+
+}
+.icone_reseau_social{
+    width: 25px;
+}
+@media screen and (min-width:500px) {
+    #document{
+        width: 180px;
+        height: 20px;
+        margin-left: -10%;
+    }
+    #pagenumber{
+        width: 80px;
+        height: 10px;
+        margin-bottom: 10px;
+        padding: 10PX;
+        border: 0.5px solid black;
+      
+    }
+}
+@media screen and (min-width:667px) {
+    #document{
+        width: 180px;
+        height: 20px;
+        margin-left: -25%;
+    }
+    #pagenumber{
+        width: 100px;
+        height: 10px;
+        margin-bottom: 10px;
+        padding: 10PX;
+        border: 0.5px solid black;
+      
+    }
+    .icon-header{
+        width: 15%;
+    }
+    i{
+        margin-left: 30px;
+    }
+    .scrollbar{
+        display: flex;
+        justify-content: space-between;
+        float: right;
+        
+    }
+    .previous, .next{
+
+       width: 50px;
+       height: 20px;
+    }
+    
+    main{
+    
+        height: px;
+    }
+    .drop_icons{
+        display: flex;
+    }
+}
+.previous, .next{
+
+    width: 50px;
+    height: 20px;
+ }
+ .demandesstatus, .scrollstatus{
+     border: 1px solid black;
+ }
+ .scrollstatus, .drop_icons{
+     display: flex;
+ }
+ .scrollstatus_demandesstatus{
+     display: flex;
+     width: 100%;
+
+ }
+ .scrollstatus{
+     float: right;
+     width: 50%;
+ }
+ .demandesstatus{
+    float: left;
+    width: 50%;
+ }
+
+@media screen and (min-width:768px) {
+    main{
+
+        margin: 50pxz;
+        box-shadow: 2px 4px 2px 2px grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    body{
+        background: #f3f2ef;
+    }
+    input{
+
+        margin-bottom: 50px;
+        padding-top: 50px;
+    
+    
+    }
+    /* header{ */
+
+
+    .titredepage{
+        font-size: x-large;
+    }
+    i{
+        font-size: 40px;
+    }
+    #document{
+        width: 180px;
+        height: 20px;
+        margin-left: -20%;
+    }
+    #pagenumber{
+        width: 150px;
+        height: 10px;
+        margin-bottom: 10px;
+        padding: 10PX;
+        border: 0.5px solid black;
+      
+    }
+}
+@media screen and (min-width: 992px) {
+    main{
+
+        width: 600px;
+        box-shadow: 2px 4px 2px 2px grey;
+        margin: auto;
+        margin-top: 40px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+        
+    } 
+}
+@media screen and (min-width:1200px) {
+
+    #document{
+        width: 180px;
+        height: 20px;
+        margin-left: 0.5px;
+    }
+    #pagenumber{
+        width: 150px;
+        height: 10px;
+        margin-bottom: 10px;
+        padding: 10PX;
+        margin-left: 5px;
+      
+    }
+    main{
+        margin-bottom: 10px;
+    }
+}

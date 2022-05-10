@@ -16,7 +16,15 @@ body{
 .Iconretour, .iconprofil{
     width: 80px;
     height: 40px;
-    
+    color: whitesmoke;
+}
+i{
+    color: whitesmoke;
+    width: 30px;
+    font-size: x-large;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 10px;
 }
 .titredepage{
     width: 70%;
@@ -34,13 +42,13 @@ body{
     justify-content: space-between;
 }
 #document{
-    width: 185px;
-    height: 25px;
-    margin-left: -15%;
+    width: 20px;
+    height: 20px;
+    margin-left: -25%;
 }
 #pagenumber{
     width: 35px;
-    height: 35px;
+    height: 25px;
     background-color: transparent;
     margin-bottom: 5px;
   
@@ -62,8 +70,8 @@ th, td{
      float: right;
  }
  .previous, .next{
-    width: 80px;
-    height: 40px;
+    width: 50px;
+    height: 27px;
  }
 /*FOOTER*/
 footer{
