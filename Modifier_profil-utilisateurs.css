@@ -111,16 +111,19 @@ footer{
         border-radius: 10px;
         background-color: whitesmoke;
     }
+    @media screen and (min-width: 1024px) {
     .design{
         width: 900px;
-        border: 1px solid #3f3e3e;
+        border: 3px solid #3f3e3e65;
         height: 600px;
         margin-top: 40px;
         margin-bottom: 40px;
         border-radius: 10px;
-        box-shadow: 0px 0px 2PX 1px #3f3e3e;
-        background-image: url(assets/Images/armoirie.png);
-        background-size: cover;
+        background-image: url(assets/Icons/Online\ document-rafiki.png);
+        background-size: 85%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     }
     header{
     height: 150px;
