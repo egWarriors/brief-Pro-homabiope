@@ -98,6 +98,10 @@ footer{
     margin-top: 15px;
 }
 /*Le responsive*/
+@font-face {
+    font-family: Lato-bold;
+    src: url(assets/Fonts/Lato-Bold.ttf);
+}
 @media screen and (min-width:800px){
     .main-container{
         display: flex;
@@ -119,9 +123,22 @@ footer{
         margin-bottom: 40px;
         border-radius: 10px;
         box-shadow: 0px 0px 2PX 1px #3f3e3e;
-        background-image: url(assets/Images/armoirie.png);
-        background-size: cover;
+        background: linear-gradient(to top right, #2565d2, #c0d0eb);
     }
+    .design div{
+        text-align: center;
+        font-family: Lato-bold;
+        font-size: xx-large;
+        margin-top: 60px;
+        font-family: Lato-bold;
+    }
+    .clignote{
+        color: white;
+        animation: clignote 1s linear infinite;
+    }
+    @keyframes clignote {  
+        50% { opacity: 0; }
+      }
     header{
     height: 150px;
     }
@@ -152,7 +169,7 @@ footer{
         border-radius: 50%;
         width: 150px;
         height: 150px;
-        background-color: #ceebfa;
+        background-color: #c0d0eb;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;

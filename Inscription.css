@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Lato-bold;
+    src: url(assets/Fonts/Lato-Bold.ttf);
+}
 *{
     box-sizing: border-box;
 }
@@ -24,9 +28,9 @@ header{
     margin-left: 70px;
     margin-top: 20px;
     color: aliceblue;
-    font-size: large;
+    font-size: x-large;
     font-weight: bolder;
-   
+    font-family: Lato-bold;
 }
 .info_container{
     margin-top: 50px;
@@ -95,7 +99,10 @@ footer{
     margin-left: 20px;
 }
 /*Le responsive*/
-@media screen and (min-width:800px){
+@font-face {
+    font-family: Lato-bold;
+    src: url(assets/Fonts/Lato-Bold.ttf);
+}
     .main-container{
         display: flex;
         justify-content: space-around;
@@ -116,9 +123,21 @@ footer{
         margin-bottom: 40px;
         border-radius: 10px;
         box-shadow: 0px 0px 2PX 1px #3f3e3e;
-        background-image: url(assets/Images/armoirie.png);
-        background-size: cover;
+        background: linear-gradient(to top right, #2565d2, #c0d0eb);;
     }
+    .design div{
+        text-align: center;
+        font-family: Lato-bold;
+        font-size: xx-large;
+        margin-top: 60px;
+    }
+    .clignote{
+        color: white;
+        animation: clignote 1s linear infinite;
+    }
+    @keyframes clignote {  
+        50% { opacity: 0; }
+      }
     header{
     height: 150px;
     }
