@@ -180,11 +180,11 @@ footer{
         margin-top: 20px;
     }
     .profil i{
-    width: 500px;
-    height: 500px;
-    margin-left: 40px;
-    margin-top: 40px;
-    color: whitesmoke;
+        width: 500px;
+        height: 500px;
+        margin-left: 40px;
+        margin-top: 40px;
+        color: whitesmoke;
     }
     .profil{
         border-radius: 50%;
