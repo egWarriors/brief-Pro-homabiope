@@ -18,6 +18,12 @@ header{
     width: 20%;
     border-right: 1px solid black;  
 }
+.fleche_container i{
+    color: white;
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 .text_container{
     width: 80%;
     margin-left: 30px;
@@ -34,18 +40,23 @@ header{
     border-top-right-radius: 10px;
     margin-top: 10px;
 }
-.profil img{
-height: 135px;
-margin-left: 7px;
+.profil i{
+    font-size: 80px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: whitesmoke;
 }
 .profil{
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    background-color: whitesmoke;
+    background-color: #c0d0eb;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.design{
+    display: none;
 }
 .input input{
     border-bottom: 1px solid #3f3e3e;
@@ -103,6 +114,12 @@ footer{
     src: url(assets/Fonts/Lato-Bold.ttf);
 }
 @media screen and (min-width:800px){
+    .fleche_container i{
+        color: whitesmoke;
+        font-size: 80px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
     .main-container{
         display: flex;
         justify-content: space-around;
@@ -116,6 +133,7 @@ footer{
         background-color: whitesmoke;
     }
     .design{
+        display: block;
         width: 900px;
         border: 1px solid #3f3e3e;
         height: 600px;
@@ -161,9 +179,12 @@ footer{
         border: none;
         margin-top: 20px;
     }
-    .profil img{
-    height: 135px;
-    margin-left: 7px;
+    .profil i{
+    width: 500px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: whitesmoke;
     }
     .profil{
         border-radius: 50%;
@@ -195,3 +216,5 @@ footer{
     .copyrigth{
         margin-top: 50px;
     }
+
+}
