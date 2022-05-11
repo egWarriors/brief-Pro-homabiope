@@ -154,13 +154,6 @@ footer{
         margin-top: 60px;
         font-family: Lato-bold;
     }
-    .clignote{
-        color: white;
-        animation: clignote 1s linear infinite;
-    }
-    @keyframes clignote {  
-        50% { opacity: 0; }
-      }
     header{
     height: 150px;
     }
