@@ -115,6 +115,7 @@ button{
         box-shadow: 0 0 7pt 4pt #2057b66b;
     }
     button>a{
+        text-decoration: none;
         color: whitesmoke;
     }
 }
