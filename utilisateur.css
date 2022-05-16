@@ -77,4 +77,44 @@ button{
     padding: 10px;
     font-weight: bold;
 }
-
+@media screen and (min-width: 800px) {
+    main{
+        width: 60%;
+        margin: 1% auto;
+        padding: 1% 15%;
+    }
+    .mainContainer{
+        padding: 0% 0;
+    }
+    input{
+        background: transparent;
+        font-size: 15px;
+        color: #3f3e3e;
+    }
+    .connexion-button{
+        text-align: center;
+    }
+    .btn{
+        padding: 1% 5%;
+        margin: 5px auto;
+        border-radius: 5pt;
+        color: whitesmoke;
+        border: none;
+        font-size: 15pt;
+    }
+    .sendBtn{
+        padding: 1% 5%;
+        margin: 5px auto;
+        background: linear-gradient(#2667d6, #2157b4);
+        box-shadow: 0 0 5pt 3pt #2057b66b;
+    }
+    .btn:hover{
+        transform: scale(1.03);
+        transition: transform .125s ease-out;
+        background: linear-gradient(#2057b6, #173e82);
+        box-shadow: 0 0 7pt 4pt #2057b66b;
+    }
+    button>a{
+        color: whitesmoke;
+    }
+}

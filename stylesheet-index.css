@@ -246,9 +246,9 @@ margin-left: 5px;
         text-decoration: underline;
     }
     .container-cartes{
-        animation: Carrousel 30s ease-in-out alternate infinite;
         flex: 1 0 450px;
         overflow: scroll;
+        scrollbar-width: none;
         display: flex;
         justify-content: space-around;
         padding: 10px;
