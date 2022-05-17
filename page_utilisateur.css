@@ -224,6 +224,7 @@ footer{
     .Contener_text_img{
         padding-bottom: 10%;
         width: 300px;
+        font-size: 10pt;
     }
     main{
         margin-left: 100px;
@@ -233,9 +234,10 @@ footer{
     .document{
         width: 100%;
     }
+    .textDesc{
+        margin: 0 2%;
+    }
 
 }
 
 }
-
-
