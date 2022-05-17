@@ -49,7 +49,7 @@ form{
 input{
     width: 100%;
     border-top: 1px none;
-    border-bottom: 1px solid #3f3e3e;
+    border-bottom: 1px solid rgba(63, 62, 62, 0.5);
     border-right: 1px none;
     border-left: 1px none;
 }
@@ -78,10 +78,15 @@ button{
     font-weight: bold;
 }
 @media screen and (min-width: 800px) {
+    body{
+        height: 100vh;
+        background-image: url(./assets/Images/background.png);
+    }
     main{
         width: 60%;
         margin: 1% auto;
         padding: 1% 15%;
+        background: #fff;
     }
     .mainContainer{
         padding: 0% 0;
@@ -95,8 +100,6 @@ button{
         text-align: center;
     }
     .btn{
-        padding: 1% 5%;
-        margin: 5px auto;
         border-radius: 5pt;
         color: whitesmoke;
         border: none;
